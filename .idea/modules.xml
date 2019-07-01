@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sp06-ribbon/sp06-ribbon.iml" filepath="$PROJECT_DIR$/sp06-ribbon/sp06-ribbon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sp07-hystrix/sp07-hystrix.iml" filepath="$PROJECT_DIR$/sp07-hystrix/sp07-hystrix.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sp09-feign/sp09-feign.iml" filepath="$PROJECT_DIR$/sp09-feign/sp09-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/spconfig/spconfig.iml" filepath="$PROJECT_DIR$/spconfig/spconfig.iml" />
     </modules>
   </component>

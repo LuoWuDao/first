@@ -2,21 +2,28 @@
 <project version="4">
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="springCloudDemo" />
-      <module name="sp01-commons" />
-      <module name="sp05-eureka" />
-      <module name="sp02-itemservice" />
-      <module name="sp12-config" />
-      <module name="sp08-hystrix-dashboard" />
-      <module name="sp04-orderservice" />
+      <module name="spconfig" />
       <module name="sp11-zuul" />
+      <module name="sp04-orderservice" />
+      <module name="sp08-hystrix-dashboard" />
+      <module name="sp01-commons" />
+      <module name="sp12-config" />
+      <module name="sp05-eureka" />
+      <module name="spDemo" />
+      <module name="sp02-itemservice" />
       <module name="sp10-turbine" />
       <module name="sp03-userservice" />
-      <module name="spconfig" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cafd6d0f-e855-415f-b163-601ce2fa1ef2" name="Default Changelist" comment="再次更新" />
+    <list default="true" id="cafd6d0f-e855-415f-b163-601ce2fa1ef2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spconfig/item-service-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spconfig/order-service-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spconfig/user-service-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spconfig/zuul-dev.yml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/sp08-hystrix-dashboard/target/" />
     <ignored path="$PROJECT_DIR$/sp10-turbine/target/" />
@@ -44,7 +51,22 @@
     <favorites_list name="springCloudDemo" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sp12-config/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sp-config</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,8 +124,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="371" />
-    <option name="y" value="42" />
+    <option name="x" value="318" />
+    <option name="y" value="38" />
     <option name="width" value="1376" />
     <option name="height" value="927" />
   </component>
@@ -113,9 +135,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="sp12-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="sp12-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="sp12-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="sp12-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="sp12-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +378,8 @@
       <workItem from="1561967366986" duration="169000" />
       <workItem from="1561967574259" duration="350000" />
       <workItem from="1561967926887" duration="1467000" />
-      <workItem from="1561969608368" duration="48000" />
+      <workItem from="1561969608368" duration="322000" />
+      <workItem from="1561970030962" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1561707536191</created>
@@ -369,11 +437,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561968561732</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="更新(1)">
+      <created>1561969842029</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561969842029</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32067000" />
+    <option name="totallyTimeSpent" value="32656000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,9 +460,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="423" y="60" width="1376" height="927" extended-state="0" />
+    <frame x="318" y="38" width="1376" height="927" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4960733" visible="true" weight="0.28082192" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4960733" visible="true" weight="0.28538814" />
       <window_info id="Structure" order="1" sideWeight="0.5039267" side_tool="true" weight="0.2762557" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -402,16 +477,16 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32853404" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49923897" visible="true" weight="0.2552356" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.49847794" visible="true" weight="0.2552356" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32984293" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.91753924" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50076103" side_tool="true" weight="0.32591623" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50152206" side_tool="true" weight="0.2552356" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32984293" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49619484" weight="0.39267015" />
-      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.49923897" weight="0.32767624" />
+      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.49923897" weight="0.32722512" />
       <window_info anchor="bottom" id="GitHub Pull Requests" order="17" weight="0.32984293" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -467,16 +542,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnloadedModulesList">
-    <module name="sp06-ribbon" />
-    <module name="sp07-hystrix" />
-    <module name="sp09-feign" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新" />
     <MESSAGE value="更新fid" />
     <MESSAGE value="再次更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="再次更新" />
+    <MESSAGE value="更新(1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新(1)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/user/service/UserServiceImpl.java">
@@ -544,13 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp12-config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -627,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp12-config/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sp12-config/src/main/resources/config/item-service-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -666,13 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp12-config/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -713,6 +763,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp12-config/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp12-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp12-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
