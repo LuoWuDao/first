@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config
+
+        #        git:
+        #          uri: https://github.com/LuoWuDao/first
+        #          searchPaths: spconfig
+        #          username: your-username
+        #          password: your-password
+
+
+  rabbitmq:
+    host: 192.168.190.130
+    port: 5672
+    username: admin
+    password: admin
+
+
+server:
+  port: 6001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
